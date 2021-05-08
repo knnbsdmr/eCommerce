@@ -19,8 +19,8 @@ public class Main {
 		InMemoryUserDao inMemoryUserDao = new InMemoryUserDao();
 		AuthManager authManager = new AuthManager(new UserManager(inMemoryUserDao, new GoogleMailManagerAdapter()) );
 		
-		User berkan = new User(1,"Berkan", "çelik" ,"ahmey@gmail.com ","2335ff56",true);
-		User ahmet = new User(2,"Ahmet", "sarsýlamz" ,"ahmey@gmail.com ","2335ff5deg6",true);
+		User berkan = new User(1,"Kenan", "Demir" ,"kenan@gmail.com ","123456",true);
+		User ahmet = new User(2,"Ahmet", "SÃ¶nmez" ,"ahmet@gmail.com ","123123",true);
 		
 		
 
